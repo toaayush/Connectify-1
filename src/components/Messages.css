@@ -1,0 +1,18 @@
+.messageitem{
+    margin: 20px auto;
+    width: 70vw;
+    background-color: rgb(252, 127, 111);
+    border-radius: 20px;
+    padding: 20px;
+}
+.openmenu-message-item{
+    margin: 20px auto;
+    margin-right: 600px;
+    width: 60vw;
+    background-color: rgb(252, 127, 111);
+    border-radius: 20px;
+    padding: 20px;
+}
+.container{
+    margin: 20px auto;
+}

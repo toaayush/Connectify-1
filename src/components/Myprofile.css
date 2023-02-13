@@ -1,0 +1,19 @@
+.profilecontainer{
+    width: 70vw;
+    height: 5000px;
+    background-color: aqua;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.openmenu-profilecontainer{
+    margin: 20px auto;
+    margin-right: 600px;
+    width: 60vw;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+    height: 5000px;
+}
+.myprofilecontainer{
+    margin: 20px auto;
+}

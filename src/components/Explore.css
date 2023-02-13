@@ -1,0 +1,18 @@
+.exploreitem{
+    margin: 20px auto;
+    width: 70vw;
+    background-color: rgb(240, 111, 252);
+    border-radius: 20px;
+    padding: 20px;
+}
+.openmenu-explore-item{
+    margin: 20px auto;
+    margin-right: 600px;
+    width: 60vw;
+    background-color: rgb(240, 111, 252);
+    border-radius: 20px;
+    padding: 20px;
+}
+.container{
+    margin: 20px auto;
+}
