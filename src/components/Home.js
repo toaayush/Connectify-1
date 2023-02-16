@@ -14,7 +14,7 @@ const Home = (props) => {
     let parsedData = await data.json();
     setList(parsedData.articles.slice(0, 4));
     setTotalResults(parsedData.totalResults);
-    console.log(list);
+    // console.log(list);
   };
   useEffect(() => {
     updateList();

@@ -4,7 +4,7 @@ import Slidebar from "./Slidebar";
 import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
-  const {openmenu, changeSlidebar} = props;
+  const {openmenu, changeSlidebar, handleLogOut} = props;
   
   return (
     <div className="fixed">
@@ -50,7 +50,7 @@ const Navbar = (props) => {
           </div>
         </div>
       </nav>
-      {openmenu ? <Slidebar /> : ""}
+      {openmenu?<Slidebar handleLogOut={handleLogOut}/> : ""}
     </div>
   );
 };

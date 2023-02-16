@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Slidebar.css'
 
-const Slidebar = () => {
+const Slidebar = (props) => {
+  const {handleLogOut} = props
   return (
     <div>
       <div className="slidebar">
@@ -28,11 +30,6 @@ const Slidebar = () => {
             </li>
             <li className="slidebar-menu-item">
               <a className="item-link" href="/">
-                Log Out
-              </a>
-            </li>
-            <li className="slidebar-menu-item">
-              <a className="item-link" href="/">
                 Notifications
               </a>
             </li>
@@ -45,6 +42,11 @@ const Slidebar = () => {
               <a className="item-link" href="/">
                 Themes
               </a>
+            </li>
+            <li className="slidebar-menu-item">
+              <Link className="item-link" to="/landingpage" onClick={handleLogOut}>
+                Log Out
+              </Link>
             </li>
           </ul>
       </div>

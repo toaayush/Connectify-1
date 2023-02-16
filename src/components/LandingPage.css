@@ -1,0 +1,11 @@
+.connectWithConnectify{
+    height: 70px;
+    width: 280px;
+    margin: 400px auto;
+    color: rgb(27, 15, 15);
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: rgb(135, 252, 151);
+    border-radius: 12px;
+    cursor: pointer;
+}
