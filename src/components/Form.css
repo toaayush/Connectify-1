@@ -1,0 +1,36 @@
+
+.form-item{
+    text-align: left;
+    margin: 18px auto;
+    padding-left: 30px;
+}
+.form-label{
+        font-size: 1.5rem;
+}
+.form-text{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.form-control{
+    display: flex;
+    margin-top: 15px;
+    height: 20px;
+    width: 80%;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 10px;
+    border-width: 0;
+    outline: none;
+}
+.submit-btn{
+    font-size: 1.2rem;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 300;
+    border-width: 0;
+    margin: 15px 0;
+    margin-left: 30px;
+    padding: 5px 10px;
+    display: flex;
+}

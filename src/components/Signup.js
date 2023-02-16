@@ -1,5 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import './Form.css'
+import './Signup.css'
+
 
 const Signup = (props) => {
   const { handleSignUp } = props;
@@ -9,8 +12,8 @@ const Signup = (props) => {
     navigate("/", { replace: true });
   };
   return (
-    <div>
-      <form>
+    <div className="signup-body">
+      <form className="signup-form">
         <div className="form-item">
           <label htmlFor="firstname" className="form-label">
             First Name
@@ -80,7 +83,7 @@ const Signup = (props) => {
             autoComplete="on"
           />
         </div>
-        <button type="submit" className="login" onClick={gotohome}>
+        <button type="submit" className="submit-btn" onClick={gotohome}>
           Sign Up
         </button>
       </form>

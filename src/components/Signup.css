@@ -1,0 +1,16 @@
+.signup-form{
+    background-color: rgb(194, 177, 177);
+    margin: auto;
+    margin-top: 3vh;
+    padding-top: 3vh;
+    height: 80vh;
+    width: 30vw;
+}
+.signup-body{
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 70px;
+    left: 0;
+}
