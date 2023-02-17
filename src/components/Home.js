@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 
@@ -50,7 +51,7 @@ const Home = (props) => {
         </div>
       </InfiniteScroll>
 
-      <div className={openmenu?"hide":"connect"}>Connect</div>
+      <Link to='/connect' className={openmenu?"hide":"connect"}>Connect</Link>
     </div>
   );
 };

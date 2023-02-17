@@ -14,6 +14,7 @@ import Login from "./components/Login";
 import Help from "./components/SlidebarComponents/Help";
 import Aboutus from "./components/SlidebarComponents/Aboutus";
 import Signup from "./components/Signup";
+import Connect from "./components/Connect";
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
           <Route exact path="/myprofile" element={<Myprofile openmenu={openmenu}/>} key='myprofile'/>
           <Route exact path="/landingpage" element={<LandingPage openmenu={openmenu} login={login}/>} key='landingpage'/>
           <Route exact path="/loginpage" element={<Login openmenu={openmenu} handleLogIn={handleLogIn} login={login}/>} key='loginpage'/>
+          <Route exact path="/connect" element={<Connect login={login} openmenu={openmenu} />} key='connect'/>
           <Route exact path="/signuppage" element={<Signup openmenu={openmenu} handleSignUp={handleSignUp} login={login}/>} key='signuppage'/>
           <Route exact path="/help" element={<Help />} key='loginpage'/>
           <Route exact path="/aboutus" element={<Aboutus />} key='loginpage'/>

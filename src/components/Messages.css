@@ -4,6 +4,8 @@
     background-color: rgb(252, 127, 111);
     border-radius: 20px;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .openmenu-message-item{
     margin: 20px auto;
@@ -15,4 +17,23 @@
 }
 .container{
     margin: 20px auto;
+}
+.friendphoto{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(233, 184, 233);
+}
+.messagecontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 40px;
+    padding: 0 10px;
+}
+.friendname{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
 }
